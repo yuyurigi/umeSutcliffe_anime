@@ -12,7 +12,7 @@ void ofApp::setup(){
     gui.add(bgColor.setup("bgColor", ofColor(153, 214, 189), ofColor(0, 0, 0), ofColor(255, 255, 255))); //背景色
     gui.add(lineColor.setup("lineColor", ofColor(255, 255, 255), ofColor(0, 0, 0), ofColor(255, 255, 255))); //ラインの色
     gui.add(lineWidth.setup("lineWidth", 5, 5, 8)); //ラインの太さ
-    gui.add(startAngle.setup("startAngle", 0, -45, 45)); //角度
+    gui.add(startAngle.setup("startAngle", 0, -45, 45)); //描き始めの角度
     gui.add(strutFactor.setup("strutFactor", -0.39118606, -1.0, 2.0)); //支柱の長さ
     
     bHide = false;
